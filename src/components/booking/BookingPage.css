@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+.booking-page {
+  background-color: #180018;
+  color: #FFE1E9;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Nunito", sans-serif;
+  
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.moviez-image {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+
+.ticket-selection,
+.combo-selection {
+  margin-bottom: 20px;
+  font-family: "Dosis", sans-serif;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+.cinema-selection label,
+.showtime-selection label,
+.ticket-selection p,
+.combo-selection p {
+  margin: 0 0 10px;
+  font-family: "Nunito", sans-serif;
+
+}
+
+.ticket-selection table,
+.combo-selection table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ticket-selection td,
+.combo-selection td {
+  padding: 10px;
+  text-align: center;
+}
+
+.ticket-selection button,
+.combo-selection button {
+  padding: 5px 10px;
+  background-color: #ff007b;
+  color: #FFE1E9;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ticket-selection span,
+.combo-selection span {
+  width: 20px;
+  text-align: center;
+}
+
+.proceed-button {
+  padding: 10px 20px;
+  background-color: #ff007b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+  margin-bottom: 40px;
+  font-family: "Nunito", sans-serif;
+}
+
+.total-amount {
+  margin-top: 20px;
+  font-size: 1.6em;
+  color: pink;
+}
+
+
+.st{
+  font-family: "Nunito", sans-serif;
+  margin-left: -40px;
+}

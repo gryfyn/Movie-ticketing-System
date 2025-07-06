@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #180018;
+  font-family: "Nunito", sans-serif;
+   /* Adjust to match the home theme */
+}
+
+.homepage {
+  background-color: #180018;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.featured-movie {
+  margin-bottom: 20px;
+}
+
+.carousel .carousel-item {
+  position: relative;
+}
+
+.carousel .carousel-item img.featured-image {
+  width: 95%;
+  height: 450px;
+  border-radius: 10px;
+}
+
+.carousel {
+  width: 65%;
+  height: 500px;
+  margin-left: 220px;
+  margin-right: 80px;
+  margin-top: 80px;
+}
+
+.movie-info {
+  position: absolute;
+  bottom: 20px;
+  left: 240px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.watch-trailer {
+  background-color: #ff007b;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.movies-section {
+  margin-top: 20px;
+  text-align: left;
+  color: #FFE1E9;
+}
+
+.movies-list {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+.movies-list p {
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.movie-item {
+  flex: 0 0 auto;
+  width: 150px;
+  text-align: center;
+}
+
+.movie-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.movie-item p {
+  font-size: 1.2em;
+  text-align: center;
+  margin: 0;
+  color: #FFE1E9;
+}
+
+.scrollable {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.view-all-link {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: #ff1493;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.view-all-link:hover {
+  text-decoration: underline;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-content {
+  position: relative;
+  background: #000;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.trailer-video {
+  width: 100%;
+  height: 350px;
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.movies-list::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.movies-list {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+

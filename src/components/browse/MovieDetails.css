@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+.movies-details {
+    background-color: #180018;
+    color: #FFE1E9;
+    font-family: "Nunito", sans-serif;
+    
+  }
+  
+ 
+  .info {
+    position: absolute;
+    bottom: 50px;
+    left:450px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    top: 340px;
+    height: 150px;
+  }
+
+  
+  .movie-image {
+    width: 80%;
+    height: auto;
+    margin-left: 170px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .movie-information {
+    width: 70%;
+    margin-left:150px;
+    margin-top: 40px;
+    border: 1px solid #000;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Georgia, serif;
+    text-align: left;
+  }
+
+  .book-ticket {
+    background-color: #ff007b;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 1.2em;
+    margin-left: 360px;
+    font-family: "Nunito", sans-serif;
+    margin-top: 20px;
+  }
+  .book-ticket:hover{
+    border: 1px solid white;
+  }
+
+  .title{
+    margin-left: 165px;
+  }
+
+  .plot{
+    font-family: Georgia, serif;
+  }

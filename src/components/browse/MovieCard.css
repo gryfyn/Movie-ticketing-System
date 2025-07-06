@@ -1,0 +1,45 @@
+/* MovieCard.css */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.movie-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .movie-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .movie-info {
+    margin-top: 15px;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .watch-trailer {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4500;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .watch-trailer:hover {
+    background-color: #e03e00;
+  }
+  

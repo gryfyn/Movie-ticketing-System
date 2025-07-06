@@ -1,0 +1,106 @@
+.movie-page {
+  background-color: #180018;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.filters {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filters select,
+.filters input,
+.filter-button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #333;
+  color: white;
+}
+
+.filter-button {
+  background-color: #ff007b;
+  border: none;
+  cursor: pointer;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.movies-item {
+  background-color: #333;
+  padding: 2px;
+  border-radius: 5px;
+  text-align: center;
+  transition: transform 0.3s ease, background 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.movies-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.movies-item:hover {
+  transform: scale(1.1);
+}
+
+.movies-item .description-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  transition: opacity 0.3s ease;
+}
+
+.movies-item:hover .description-overlay {
+  opacity: 1;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ff007b;
+  color: white;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #ff007b;
+  cursor: not-allowed;
+}
+
+.movie-page .movie-link {
+  text-decoration: none;
+  color: #FFE1E9;
+}

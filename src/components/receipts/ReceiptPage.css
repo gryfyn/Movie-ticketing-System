@@ -1,0 +1,46 @@
+/* ReceiptPage.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
+
+.receipt-page {
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #180018;
+    color: #FFE1E9;
+    
+    font-family: "Nunito", sans-serif;
+  
+  }
+  
+  .ticket-card {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid #ff007b;
+    border-radius: 10px;
+    padding: 20px;
+    width: 800px; /* Adjusted width for landscape */
+    text-align: left;
+    align-items: center;
+    margin: 60px 220px; 
+  }
+  
+  .ticket-left {
+    padding-right: 20px;
+  }
+  .ticket-left :hover {
+    transform: scale(1.1);
+  }
+  
+  
+  .moviess-image {
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
